@@ -1,0 +1,212 @@
+/* desktop styling  */
+.main{
+     background-color: hsl(233, 47%, 7%);
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.container{
+    background-color:hsl(244, 38%, 16%);
+    width: 885px;
+    height: 355px;
+    border-radius: 10px;
+    z-index: 100;
+    display: flex;
+}
+.f1{
+      color: white;
+}
+.con{
+    position: relative;
+    left: 30px;
+}
+.hot{
+    height: 355px ;
+    width: 442px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    margin-left: 54px;
+    
+}
+.cover{
+    height: 355px ;
+    width: 442px;
+    position: absolute;
+    bottom: 1px;
+    background-color:hsl(276, 87%, 24%) ;
+    opacity: 50%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+        margin-left: 54px;
+}
+.text{
+      margin-left: 50px;
+      margin-top: 28px;
+}
+#tip{
+    color:hsl(277, 64%, 61%);
+}
+.f2{
+    color: white;
+    position: relative;
+    line-height: 1.4;
+    opacity: 70%;
+}
+.g1{
+    color: white;
+    
+}
+.g2{
+    color: white;
+    letter-spacing: 1.2px;
+}
+.p1{
+    display: none;
+}
+.p2{
+    display: none;
+}
+.y1{
+    display: none;
+}
+.y2{
+    display: none;
+}
+.t1{
+    display: none;
+}
+.t2{
+    display: none;
+}
+.u1{
+    display: none;
+}
+.u2{
+    display: none;
+}
+
+@media screen and (max-width:640px) {
+    body{
+        min-height: 100vh;
+        background-color: hsl(233, 47%, 7%)
+    }
+
+    .container{
+         display: block;
+        position: relative;
+        background-color: hsl(244, 38%, 16%);
+        width: 91%;
+        height: 872px;
+        left: 20px;
+        bottom: -69px;
+    }
+    .con{
+        position: relative;
+        width: 105%;
+        bottom: 70%;
+        left: 21px;
+        
+    }
+    .text{
+        position: relative;
+        top: 277px;
+     margin: 30px;
+     margin-bottom: 7%;
+    }
+    .p1{
+         text-align: center;
+         color: white;
+         bottom: 20%;
+         position: relative;
+         display: block;
+    }
+    #pit{
+        color: hsl(277, 64%, 61%)
+    }
+    .p2{
+         text-align: center;
+         font-size: 115%;
+         color: hsla(0, 0%, 100%, 0.75);
+         display: block;
+         opacity: 70%;
+         line-height: 1.4;
+    }
+    .y1{
+        display: block;
+        color: white;
+        position: relative;
+        left: 95px;
+    }
+    .y2{
+         color: hsla(0, 0%, 100%, 0.75);
+         display: block;
+         position: relative;
+         bottom: 10px;
+         left: 85px;
+    }
+    .t1{
+        display: block;
+        color: white;
+         position: relative;
+          bottom: 10px;
+        left: 100px;
+    }
+    .t2{
+           color: hsla(0, 0%, 100%, 0.75);
+         display: block;
+         position: relative;
+         bottom: 10px;
+         left: 85px;
+    }
+    .u1{
+                display: block;
+        color: white;
+         position: relative;
+          bottom: 10px;
+        left: 90px;
+    }
+    .u2{
+           color: hsla(0, 0%, 100%, 0.75);
+         display: block;
+         position: relative;
+         bottom: 10px;
+         left: 90px;
+    }
+    .f1{
+        display: none;
+       
+    }
+    .f2{
+        display: none;
+    }
+     .g1{
+        display: none;
+    }
+    .g2{
+        display: none;
+    }
+     .hot{
+          width: 94%;
+        height: auto;
+        margin: 0;
+        position: relative;
+        right: 18px;
+        border-bottom-right-radius: 0%;
+        border-top-left-radius: 10px;
+        }
+      .cover{
+        width: 94%;
+        margin: 0;
+        position: absolute;
+        right: 39px;
+        height: 281px
+        }
+}
+
+
+ 
+    
+    
